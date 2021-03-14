@@ -53,12 +53,14 @@ a:link {
 
 #mission {
     background-image: url(/resources/images/img-mission-background.png);
-    height: 600px;
+    height: 700px;
+    width: 1200px;
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 
