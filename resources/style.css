@@ -17,6 +17,7 @@ header {
     position: absolute;
     margin: 0;
     padding: 0;
+    width: 69px;
 }
 nav {
     height: 59px;
@@ -50,7 +51,6 @@ a:link {
 
 /* sections layout */
 
-
 #mission {
     background-image: url(/resources/images/img-mission-background.png);
     height: 700px;
@@ -63,7 +63,21 @@ a:link {
     margin: auto;
 }
 
+#featured {
+    display: block;
+    width: 100%;
+    
+}
 
+img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
 
-
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
