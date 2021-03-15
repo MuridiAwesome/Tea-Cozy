@@ -52,7 +52,7 @@ a:link {
 /* sections layout */
 
 #mission {
-    background-image: url(/resources/images/img-mission-background.png);
+    background-image: url("/resources/images/img-mission-background.png");
     height: 700px;
     width: 1200px;
     background-repeat: no-repeat;
