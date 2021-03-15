@@ -81,3 +81,30 @@ img {
     justify-content: center;
 }
 
+#locations {
+    background: url('/resources/images/img-locations-background.png');
+    height: 500px;
+    width: 1200px;
+    display: block;
+    margin: 0 auto ;
+}
+
+#locations>h2 {
+     line-height: 120px; 
+}
+.container-addresses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.box-address {
+    width: 300px;
+    margin: 0 40px;
+    padding: 0;
+    background-color: black;
+
+}
+
